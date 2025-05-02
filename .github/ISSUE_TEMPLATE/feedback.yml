@@ -1,0 +1,56 @@
+name: Feedback / Bug Report
+description: Share your feedback or report a bug.
+labels: [feedback]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to give us feedback or report a bug! 🙏
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of Issue
+      options:
+        - Bug Report
+        - Feature Request
+        - General Feedback
+      description: Please choose the type of issue you're submitting.
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the issue, feature request, or general feedback.
+      placeholder: What happened? What should happen instead?
+    validations:
+      required: true
+
+  - type: input
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce (for bugs)
+      description: If applicable, provide steps to reproduce the issue.
+      placeholder: e.g. 1. Go to page... 2. Click button...
+  
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Browser, device, or platform info.
+      placeholder: e.g. Chrome 124 on macOS
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or Logs
+      description: If helpful, paste logs or attach images here.
+
+  - type: input
+    id: contact
+    attributes:
+      label: Optional: Email or GitHub handle
+      description: Leave your contact if you want us to follow up (optional).
