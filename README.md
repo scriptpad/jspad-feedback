@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://i.ibb.co/gMBGZdZ6/Screenshot-2025-04-13-190907.png" alt="Logo" height="80" />
+  <img src="./logo.png" alt="Logo" height="80" />
 </p>
 
 # 📝 jspad.dev Feedback & Issues
