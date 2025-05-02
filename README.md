@@ -20,7 +20,7 @@ We’d love your help to improve jspad.dev!
 
 ## 📬 How to Contribute
 
-Please use the [Issues](https://github.com/your-org/jspad-feedback/issues) tab to submit:
+Please use the [Issues](https://github.com/scriptpad/jspad-feedback/issues) tab to submit:
 
 ### 🐞 Bug Reports
 
